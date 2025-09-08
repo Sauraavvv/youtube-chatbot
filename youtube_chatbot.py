@@ -9,7 +9,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 # Set environment variable
-os.environ["GOOGLE_API_KEY"] = st.secrets.get("GOOGLE_API_KEY", "AIzaSyCBBfnCqQlfrOCmSPzNuyC8F4jT0OHUX7g")
+os.environ["GOOGLE_API_KEY"] = st.secrets.get("GOOGLE_API_KEY", "Your_api_key")
 
 class YouTubeChatbot:
     def __init__(self):
